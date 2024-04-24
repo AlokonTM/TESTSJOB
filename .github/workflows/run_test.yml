@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Create new user
-        uses: actions/requests@v3
+        uses: actions/requests
 
       - name: setap Python
         uses: actions/setup-python@v3
