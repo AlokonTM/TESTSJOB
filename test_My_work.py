@@ -1,14 +1,14 @@
 import requests
 
-headers = {'Authorization': 'Token token=7662c59d6086d0e8a5d528bb17a58c06'}  # token
+headers = {'Authorization': 'Token token=1912a3978ce2de40e920188a7f3b2a2a'}  # token
 
 
 # create new user
 def test_create_new_user():
     body1 = {
         "user": {
-            "login": "Thgjghjghj",
-            "email": "teshgjt@mail.com",
+            "login": "Wtethgf",
+            "email": "tcvffgh@mahhgffy.com",
             "password": "123456"
         }
     }
@@ -22,12 +22,12 @@ def test_create_new_user():
 def test_change_the_user():
     body2 = {
         "user": {
-            "login": "Newlrtyogin",
-            "email": "testrtyrtyil@.com",
+            "login": "NvcWecgfn",
+            "email": "vfbhnx@bbf.com",
             "password": "123456",
-            "twitter_username": "twitter_username_here1",
-            "facebook_username": "facebook_username_here2",
-            "pic": "twitter",
+            "twitter_username": "twitt",
+            "facebook_username": "faceb",
+            "pic": "twighr",
             "profanity_filter": "false"
         }
     }
